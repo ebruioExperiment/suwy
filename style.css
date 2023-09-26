@@ -1,0 +1,128 @@
+.container {
+  position: relative;
+}
+
+.back-suwy {
+  position: absolute;
+  width: 6000px;
+  height: 1000px;
+  top: 00px;
+  left: 500px;
+  background-color: rgba(0, 123, 255, 0);
+  /* background-color: blue; */
+  color: rgba(0, 123, 255, 0);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.suwy-button-1 {
+  position: absolute;
+  width: 1300px;
+  height: 3000px;
+  top: 800px;
+  left: 5500px;
+  background-color: rgba(0, 123, 255, 0);
+  /* background-color: blue; */
+  color: rgba(0, 123, 255, 0);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.suwy-button-2 {
+  position: absolute;
+  width: 250px;
+  height: 130px;
+  top: 2640px;
+  left: 4420px;
+  background-color: rgba(0, 123, 255, 0);
+  /* background-color: blue; */
+  color: rgba(0, 123, 255, 0);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.suwy-button-3 {
+  position: absolute;
+  width: 1400px;
+  height: 900px;
+  top: 2500px;
+  left: 2000px;
+  background-color: rgba(0, 123, 255, 0);
+  /* background-color: blue; */
+  color: rgba(0, 123, 255, 0);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.suwy-button-4 {
+  width: 300px;
+  height: 2000px;
+  position: absolute;
+  top: 1340px;
+  left: 1100px;
+  background-color: rgba(0, 123, 255, 0);
+  /* background-color: blue; */
+  color: rgba(0, 123, 255, 0);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.suwy-button-5 {
+  width: 300px;
+  height: 1000px;
+  position: absolute;
+  top: 2040px;
+  left: 1600px;
+  background-color: rgba(0, 123, 255, 0);
+  /* background-color: blue; */
+  color: rgba(0, 123, 255, 0);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-suwy,
+.suwy-button-1,
+.suwy-button-2,
+.suwy-button-3,
+.suwy-button-4,
+.suwy-button-5 {
+  z-index: 2;
+}
+
+#gifContainer {
+  position: absolute;
+  display: none;
+}
+
+#mainImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.tenor-gif-embed {
+  position: absolute;
+  top: 1000px;
+  height: 2000px;
+  width: 2000px;
+  z-index: 2;
+}
+
+img {
+  height: 3910px;
+  width: 7605px;
+  display: block;
+}

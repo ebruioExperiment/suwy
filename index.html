@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Matejo Gay</title>
+  </head>
+  <body>
+    <button
+      class="back-suwy"
+      onclick="changeImageAndPlayAudio('/images/MainPicture.jpg', ''); gifContainer.style.display = 'none';"
+    >
+      Back
+    </button>
+
+    <button
+      class="suwy-button-1"
+      onclick="changeImageAndPlayAudio('/images/BigTree.jpg', '/audio/familyties.mp3');"
+    >
+      button-1
+    </button>
+    <button
+      class="suwy-button-2"
+      onclick="changeImageAndPlayAudio('/images/Sokol.jpg','/audio/perfect.mp3');"
+    >
+      button-2
+    </button>
+    <button
+      class="suwy-button-3"
+      onclick="changeImageAndPlayAudio('/images/Poop.jpg','/audio/poop.mp3');"
+    >
+      button-3
+    </button>
+    <button
+      class="suwy-button-4"
+      onclick="toggleGifVisibility('/audio/moneytwerk.mp3'); changeImageAndPlayAudio('/images/SmallTree.jpg', '/audio/moneytwerk.mp3');"
+    >
+      button-4
+    </button>
+
+    <img id="mainImg" src="/images/MainPicture.jpg" alt="" />
+
+    <div
+      class="tenor-gif-embed"
+      id="gifContainer"
+      data-postid="3313154219396258304"
+      data-share-method="host"
+      data-aspect-ratio="1.77778"
+      data-width="100%"
+    >
+      <a
+        href="https://tenor.com/view/yeat-money-twerk-yeat-moneytwerk-gif-3313154219396258304"
+        >Yeat Money Twerk Yeat Moneytwerk GIF</a
+      >
+      from
+      <a href="https://tenor.com/search/yeat+money+twerk-gifs"
+        >Yeat Money Twerk GIFs</a
+      >
+    </div>
+    <script
+      type="text/javascript"
+      async
+      src="https://tenor.com/embed.js"
+    ></script>
+
+    <audio id="audioPlayer" controls>
+      <source id="audioSource" src="" type="audio/mpeg" />
+    </audio>
+
+    <script src="index.js"></script>
+  </body>
+</html>
